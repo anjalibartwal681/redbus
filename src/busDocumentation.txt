@@ -1,0 +1,37 @@
+1. Home Page
+•	User can enter:
+o	From city
+o	To city
+•	One Search button
+
+2. Search Page
+Show list of buses based on search
+Each bus should display:
+Bus name
+Time
+Price
+
+3. Bus Options
+There are two buttons one will show all buses and another one will show seats
+View Buses → show all bus details
+      View Seats → open seat selection
+
+4. Bus Details
+Show full information of bus
+Example: type, timing, price
+
+5. Seat Selection
+User can select and unselect seats
+    Selected seats should be highlighted
+
+6. Price Calculation
+ Show total price based on selected seats
+Total Price = Seats × Price
+
+7. Navigation
+User wil redirect on these pages
+  Home
+Search page
+Bus details
+Seat selection
+

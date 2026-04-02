@@ -1,6 +1,6 @@
 // components/SeatLayout.jsx
 import { useState } from "react";
-import Seat from "./seat";
+import Seat from "./Seat";
 
 
 const SeatLayout = ({ price }) => {

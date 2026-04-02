@@ -2,8 +2,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { buses } from "../data/buses";
 import SeatLayout from "../components/SeatLayout";
-import Navbar from "../components/Navbar";
-import BusCard from "../components/buscards";
 import ViewBusesCard from "../components/viewBusCard";
 
 const SeatSelection = () => {

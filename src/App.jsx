@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
 import SeatSelection from "./pages/SeatSelection";
-import Layout from "./components/layout";
+import Layout from "./components/Layout";
 import { Helmet } from "react-helmet";
-import BusDetails from "./pages/BusDetails";
+
 import BusList from "./pages/BusList";
 
 

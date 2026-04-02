@@ -1,6 +1,3 @@
-// data/buses.js
-
-
 export const buses = [
   {
     id: 1,
@@ -18,8 +15,7 @@ export const buses = [
     to: "dehradun",
     time: "21:30 - 04:15",
     price: 647,
-    image:"https://tse3.mm.bing.net/th/id/OIP.Fp_c42ZCcykQeYhHjB3meAHaEc?pid=Api&P=0&h=180"
-
+    image: "https://tse3.mm.bing.net/th/id/OIP.Fp_c42ZCcykQeYhHjB3meAHaEc?pid=Api&P=0&h=180"
   },
   {
     id: 3,
@@ -28,9 +24,9 @@ export const buses = [
     to: "gurugram",
     time: "20:00 - 02:00",
     price: 455,
-    image:"https://1.bp.blogspot.com/-x7Z1H67bMaI/X7jJNm4OoVI/AAAAAAAAAkY/z7m9L1J7XiAoIXVuTagKtL2yctSSG_JtACLcBGAsYHQ/w1200-h630-p-k-no-nu/IMG-20201001-WA0005.jpg"
+    image: "https://1.bp.blogspot.com/-x7Z1H67bMaI/X7jJNm4OoVI/AAAAAAAAAkY/z7m9L1J7XiAoIXVuTagKtL2yctSSG_JtACLcBGAsYHQ/w1200-h630-p-k-no-nu/IMG-20201001-WA0005.jpg"
   },
-    {
+  {
     id: 4,
     name: "FlixBus",
     from: "dehradun",
@@ -39,18 +35,26 @@ export const buses = [
     price: 635,
     image: "https://tse4.mm.bing.net/th/id/OIP.LL70emYEeSDy4ib1Olx0dAHaEK?pid=Api&P=0&h=180"
   },
-];
-// llll for commmit
 
-export const cities = [
-  "Delhi",
-  "Dehradun",
-  "Haridwar",
-  "Rishikesh",
-  "Noida",
-  "Mumbai",
-  "Jaipur",
-  "Chandigarh",
-  "Lucknow",
-  "Agra"
+  // ✅ NEW ROUTE: Rishikesh → Dehradun
+  {
+    id: 5,
+    name: "UTC Express",
+    from: "rishikesh",
+    to: "dehradun",
+    time: "08:00 - 09:00",
+    price: 150,
+    image: "https://tse4.mm.bing.net/th/id/OIP.LL70emYEeSDy4ib1Olx0dAHaEK?pid=Api&P=0&h=180"
+  },
+
+  // ✅ NEW ROUTE: Dehradun → Rishikesh
+  {
+    id: 6,
+    name: "UTC Express",
+    from: "dehradun",
+    to: "rishikesh",
+    time: "18:00 - 19:00",
+    price: 150,
+    image: "https://tse4.mm.bing.net/th/id/OIP.LL70emYEeSDy4ib1Olx0dAHaEK?pid=Api&P=0&h=180"
+  }
 ];
